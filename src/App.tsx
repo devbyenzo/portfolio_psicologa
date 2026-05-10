@@ -1,13 +1,12 @@
 import { motion } from 'framer-motion'
-import { Brain, Heart, Shield, Ear, Target, Sparkles } from 'lucide-react'
-import { MessageCircle } from 'lucide-react'
+import { Brain, Heart, Shield, Ear, Target, Sparkles, MessageCircle, type LucideIcon } from 'lucide-react'
 
 const fadeUp = {
   initial: { opacity: 0, y: 32 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true },
   transition: { duration: 0.7, ease: 'easeOut' },
-}
+} as const
 
 function Navbar() {
   return (
@@ -145,14 +144,14 @@ function Especialidades() {
 }
 
 function Beneficios() {
-  const items = [
+  const items: [LucideIcon, string, string][] = [
     [Shield, 'Espaço Seguro', 'Um ambiente confidencial onde você pode ser completamente autêntico.'],
     [Ear, 'Escuta Qualificada', 'Atenção plena e profissional para entender suas necessidades.'],
     [Heart, 'Atendimento Humanizado', 'Cada sessão é personalizada para sua jornada.'],
     [Sparkles, 'Desenvolvimento Emocional', 'Ferramentas práticas para melhorar sua qualidade de vida.'],
     [Target, 'Objetivos Claros', 'Trabalhamos juntas para definir metas realistas.'],
     [Brain, 'Crescimento Pessoal', 'A terapia é catalisadora para transformação profunda.'],
-  ]
+]
 
   return (
     <section id="beneficios" className="px-6 py-28">
