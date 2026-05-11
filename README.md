@@ -1,73 +1,131 @@
-# React + TypeScript + Vite
+# Psicóloga Premium Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page moderna, elegante e sofisticada desenvolvida para uma psicóloga profissional, com foco em acolhimento, presença digital, credibilidade e conversão de visitantes em pacientes.
 
-Currently, two official plugins are available:
+O projeto foi criado utilizando tecnologias modernas do ecossistema Front-End, priorizando performance, experiência do usuário, responsividade e design premium inspirado em sites de clínicas e profissionais de alto padrão.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 Deploy Online  
+https://SEU-LINK-DA-VERCEL.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Preview Visual
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Preview do Projeto](./public/preview.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Tecnologias Utilizadas
+
+- React
+- Vite
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- Lenis Smooth Scroll
+- Lucide React
+- HTML5
+- CSS3
+
+---
+
+## Principais Funcionalidades
+
+✨ Layout moderno e premium  
+✨ Interface totalmente responsiva  
+✨ Scroll suave com Lenis  
+✨ Animações refinadas com Framer Motion  
+✨ Hero Section profissional  
+✨ Sessão “Sobre” elegante  
+✨ Área de especialidades  
+✨ Benefícios do acompanhamento terapêutico  
+✨ Timeline explicativa do processo terapêutico  
+✨ Sessão de blog  
+✨ Formulário funcional de contato  
+✨ Integração com WhatsApp  
+✨ Estrutura componentizada  
+✨ Experiência otimizada para mobile  
+✨ Código limpo e escalável  
+
+---
+
+## Objetivo do Projeto
+
+Este projeto foi desenvolvido como parte do meu portfólio profissional, simulando uma landing page premium para psicólogos e clínicas modernas.
+
+O objetivo principal foi criar uma experiência visual sofisticada e acolhedora, transmitindo profissionalismo, confiança e conforto ao visitante.
+
+---
+
+## Estrutura do Projeto
+
+```bash
+src/
+ ├── assets/
+ ├── components/
+ ├── sections/
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Como Executar Localmente
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone o repositório:
+
+```bash
+git clone https://github.com/devbyenzo/portfolio_psicologa.git
 ```
+
+Acesse a pasta do projeto:
+
+```bash
+cd portfolio_psicologa
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Performance e Experiência
+
+O projeto foi desenvolvido priorizando:
+
+- Performance otimizada
+- Responsividade avançada
+- Experiência fluida
+- Navegação intuitiva
+- Visual minimalista premium
+- Animações suaves
+- Organização escalável do código
+
+---
+
+## Autor
+
+Desenvolvido por Enzo
+
+GitHub:  
+https://github.com/devbyenzo
+
+---
+
+## Licença
+
+Este projeto está sob a licença MIT.
