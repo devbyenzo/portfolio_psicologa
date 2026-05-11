@@ -9,7 +9,7 @@ O projeto foi criado utilizando tecnologias modernas do ecossistema Front-End, p
 ## Preview
 
 🔗 Deploy Online  
-https://SEU-LINK-DA-VERCEL.vercel.app
+https://portfolio-psicologa-mu.vercel.app/
 
 ---
 
